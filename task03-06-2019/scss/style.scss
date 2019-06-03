@@ -1,0 +1,295 @@
+/* Start Header*/
+header {
+  #header-start {
+    .header-bg {
+      background-image: url("../img/header-bg.jpg");
+      background-size: cover;
+      background-position: center center;
+      // height:100vh ;
+
+      .header-nav {
+        background-color: black;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        
+        nav {
+          height: 70px;
+
+          a {
+            color: white;
+          }
+        }
+      }
+      .text {
+        text-align: center;
+        padding-top: 5cm;
+        color: white;
+        padding-bottom: 5cm;
+        p {
+          font-size: 45px;
+          font-style: italic;
+        }
+        h1 {
+          font-size: 80px;
+          font-weight: bold;
+        }
+        p {
+          padding-top: 1cm;
+        }
+        a {
+          background-color: #fed136;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          padding-left: 45px;
+          padding-right: 45px;
+          border-radius: 7px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+/* End Header*/
+
+/* Start Section 1*/
+#services {
+  padding-top: 2cm !important;
+  padding-bottom: 2cm !important;
+  .text {
+    text-align: center;
+    h1 {
+      color: black;
+      font-weight: 700;
+      font-size: 45px;
+    }
+    p {
+      color: black;
+      font-style: italic;
+      font-size: 17px;
+    }
+  }
+  .text2 {
+    text-align: center;
+    span {
+      i {
+        color: white;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #fed136;
+        text-align: center;
+        font-size: 70px;
+        padding-top: 25px;
+      }
+    }
+    .commerce {
+      font-weight: bold;
+      font-size: 25px;
+      padding-top: 0.5cm;
+    }
+    .lorem {
+      color: #6c757d;
+      font-weight: 500;
+    }
+  }
+}
+/* End Section 1*/
+
+/* Start Section 2*/
+#portfolio {
+  padding-top: 2cm !important;
+  background-color: #f8f9fa !important;
+  padding-bottom: 2cm !important;
+  .text {
+    text-align: center;
+    h1 {
+      color: black;
+      font-weight: 700;
+      font-size: 45px;
+    }
+    p {
+      color: black;
+      font-style: italic;
+      font-size: 17px;
+    }
+  }
+  .item {
+    .picture {
+      position: relative;
+      cursor: pointer;
+
+      .cover {
+        width: 100%;
+        position: absolute;
+        background-color: #fed136;
+        opacity: 0;
+        height: 100%;
+        left: 0;
+        top: 0;
+        text-align: center;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
+        i {
+          padding-top: 90px;
+          font-size: 70px;
+          color: white;
+        }
+      }
+    }
+    &:hover .cover {
+      opacity: 0.9;
+    }
+    .text1 {
+      font-size: 30px;
+      font-weight: 600;
+      display: inline;
+    }
+    .text2 {
+      color: #6c757d;
+      font-style: italic;
+    }
+    .card-body-height {
+      height: 6.5rem;
+    }
+  }
+}
+/* End Section 2*/
+
+/* Start Section 4*/
+#amazing{
+ 
+    padding-top: 2cm !important;
+    padding-bottom: 2cm !important;
+    background-color: #f8f9fa !important;
+    .text {
+        text-align: center;
+        h1 {
+          color: black;
+          font-weight: 700;
+          font-size: 40px;
+        }
+        p {
+          color: black;
+          font-style: italic;
+          font-size: 17px;
+        }
+      }
+      img{
+       border-radius: 50%;
+       border:8px solid silver;
+       height: 208px;
+    
+      }
+      .text1{
+      font-size: 23px;
+      font-weight: 600;
+      display: inline;
+      }
+      .text2{
+        color: #6c757d;
+        
+      }
+      .icon{
+        
+        i{
+            color: white;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            border-radius: 50%;
+            padding-top: 15px;
+            font-size: 23px;
+            cursor: pointer;
+            &:hover{
+                transition: all 0.6s;
+                background-color: #fed136;
+            }
+        }
+      }
+      .card-col{
+        width: 13rem;
+        border: none;
+        margin-left: 70px;
+        background-color: #f8f9fa !important;
+      }
+
+    
+}
+/* End Section 4*/
+
+/* Start Section 5*/
+#envato{
+  padding-top: 1cm !important;
+  padding-bottom: 1cm !important;
+}
+/* End Section 5*/
+
+/* Start Footer*/
+#footer-start{
+  padding-top: 2cm !important;
+  
+  background: url("../img/map-image.png");
+  // background-size: cover;
+  // background-position: center center;
+  background-color: black;
+  // background-position: center;
+  .text {
+    text-align: center;
+    h1 {
+      color:white;
+      font-weight: 700;
+      font-size: 40px;
+    }
+    p {
+      color: darkgray;
+      font-style: italic;
+      font-size: 17px;
+    }
+  }
+  .item{
+    
+    .input-foot{
+    width: 97%;
+    height: 65px;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    }
+  }
+  .item2{
+    
+    .input-text{
+      width: 97%;
+      height: 235px;
+      border-radius: 7px;
+      padding-left: 15px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+  }
+  .item3{
+    padding-top: 1cm;
+    padding-left: 11.5cm;
+    padding-bottom: 3cm;
+    a {
+      background-color: #fed136;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 45px;
+      padding-right: 45px;
+      border-radius: 7px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+    
+  
+}
